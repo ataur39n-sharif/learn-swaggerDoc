@@ -3,7 +3,7 @@ info:
   title: Blog Api
   version: "1.0"
 servers:
-  - url: https://learn-swagger.up.railway.app
+  - url: https://proud-teal-snail.cyclic.app
 
 tags:
   - name: Auth
