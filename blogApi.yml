@@ -3,7 +3,7 @@ info:
   title: Blog Api
   version: "1.0"
 servers:
-  - url: https://api.server.test/v1
+  - url: https://learn-swagger.up.railway.app
 
 tags:
   - name: Auth

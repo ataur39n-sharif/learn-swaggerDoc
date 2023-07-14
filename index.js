@@ -14,6 +14,12 @@ app.get('/status',(req,res)=>{
     })
 })
 
+app.use((req, res, next)=>{
+    res.status(500).json({
+        message:"Server under construction"
+    })
+})
+
 app.listen(5000,()=>{
     console.log('server listening on port 5000');
 })
